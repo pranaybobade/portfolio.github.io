@@ -1,0 +1,556 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio/title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-black text-white">
+    <!-- Header -->
+    <header
+      class="hidden md:flex main-navbar bg-black w-full md:h-auto text-white h-screen md:static left-0 top-0 py-4 md:py-0"
+      id="mobileNavbar"
+    >
+      <div class="container mx-auto px-5 sm:px-2 lg:px-0">
+        <div class="flex flex-col md:flex-row md:items-center justify-between">
+          <div
+            class="logo text-2xl font-black cursor-pointer w-full text-center"
+          >
+            <span
+              class="close-btn inline-block rotate-45 md:hidden text-5xl font-thin absolute top-1 left-5"
+              id="closeButton"
+              >+</span
+            >
+            <span
+              class="flex justify-center font-square text-3xl -tracking-tightest"
+              ><img src="images.jpg" alt="" class="w-10 rounded-full mx-3" />MY
+              PROTFOLIO</span
+            >
+          </div>
+
+          <nav class="navbar">
+            <ul
+              class="flex whitespace-nowrap flex-col md:flex-row mt-14 md:mt-0 md:items-center"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block font-medium w-full p-2 hover:text-red-500 md:hover:bg-black transition-all duration-300"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block font-medium w-full p-3 hover:text-red-500 md:hover:bg-black transition-all duration-300"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block font-medium w-full p-3 hover:text-red-500 md:hover:bg-black transition-all duration-300"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block font-medium w-full p-3 hover:text-red-500 md:hover:bg-black transition-all duration-300"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main-section -->
+    <main
+      class="bg-red-300 pt-9 md:h-auto w-full md:bg-black"
+      id="site-wrapper"
+    >
+      <div class="mobile-navbar-top flex items-center h-10 justify-around">
+        <div class="hamburger ml-3 md:hidden cursor-pointer" id="burgerButton">
+          <div class="line w-5 h-0.5 bg-white my-1"></div>
+          <div class="line w-5 h-0.5 bg-white my-1"></div>
+          <div class="line w-5 h-0.5 bg-white my-1"></div>
+        </div>
+        <div class="logo-img flex md:hidden justify-center">
+          <img src="images.jpg" alt="logo" class="w-10 rounded-full mx-3 h-9" />
+          <span class="font-square text-3xl -tracking-tightest"
+            >MY PORTFOLIO</span
+          >
+        </div>
+        <div class="text-sec md:hidden">
+          <h2 class="text-3xl font-square -tracking-tightest">Hello</h2>
+        </div>
+      </div>
+      <!-- first-section -->
+      <section>
+        <div class="main mx-4 my-3">
+          <div class="resume text-center px-10 py-5 sm:w-9/12 md:w-8/12 m-auto">
+            <span class="text-5xl font-black mb-5 inline-block font-square"
+              >Resume</span
+            >
+            <p class="md:text-2xl font-dancing text-lg text-white">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Second-section -->
+      <section>
+        <div class="container grid md:grid-cols-2 mx-auto text-justify my-7">
+          <!-- first-blocks -->
+          <div
+            class="bg-gray-900 sm:bg-from-neutral-800 mx-4 mt-4 rounded-md hover:rotate-3 ease-out hover:bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-700"
+          >
+            <div class="first p-8">
+              <span class="text-yellow-500 font-bold text-3xl font-square"
+                >2020-2021</span
+              >
+              <h2 class="capitalize my-2 text-2xl font-square">
+                master degeree of Design
+              </h2>
+              <span class="capitalize text-white -tracking-tightest"
+                >oxford university</span
+              >
+              <p class="mt-3 text-white md:text-2xl font-dancing text-lg">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+
+          <!-- second-block -->
+          <div
+            class="bg-gray-900 mx-4 mt-4 rounded-md hover:rotate-3 ease-out hover:bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-700"
+          >
+            <div class="second p-8">
+              <span class="text-yellow-500 font-bold text-3xl font-square"
+                >2020-2021</span
+              >
+              <h2 class="my-2 text-2xl font-square">Diploma in Computer</h2>
+              <span class="capitalize text-white -tracking-tightest"
+                >oxford university</span
+              >
+              <p class="mt-3 text-white md:text-2xl font-dancing text-lg">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+
+          <!-- third-block -->
+          <div
+            class="bg-gray-900 mx-4 mt-4 rounded-md hover:rotate-3 ease-out hover:bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-700"
+          >
+            <div class="second p-8">
+              <span class="text-yellow-500 font-bold text-3xl font-square"
+                >2020-2021</span
+              >
+              <h2 class="my-2 text-2xl font-square">
+                Bachelor's Degree of C.A
+              </h2>
+              <span class="capitalize text-white -tracking-tightest"
+                >oxford university</span
+              >
+              <p class="mt-3 text-white md:text-2xl font-dancing text-lg">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+
+          <!-- fourth-block -->
+          <div
+            class="bg-gray-900 mx-4 mt-4 rounded-md hover:rotate-3 ease-out hover:bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-700"
+          >
+            <div class="second p-8">
+              <span class="text-yellow-500 font-bold text-3xl font-square"
+                >2020-2021</span
+              >
+              <h2 class="my-2 text-2xl font-square">Art & Creative Director</h2>
+              <span class="capitalize text-white -tracking-tightest"
+                >oxford university</span
+              >
+              <p class="mt-3 text-white md:text-2xl font-dancing text-lg">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+
+          <!-- fifth-block -->
+          <div
+            class="bg-gray-900 mx-4 mt-4 rounded-md hover:rotate-3 ease-out hover:bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-700"
+          >
+            <div class="second p-8">
+              <span class="text-yellow-500 font-bold text-3xl font-square"
+                >2021-2022</span
+              >
+              <h2 class="my-2 text-2xl font-square">Wordpress Developer</h2>
+              <span class="capitalize text-white -tracking-tightest"
+                >oxford university</span
+              >
+              <p class="mt-3 text-white md:text-2xl font-dancing text-lg">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+
+          <!-- Sixth-block -->
+          <div
+            class="bg-gray-900 mx-4 mt-4 rounded-md hover:rotate-3 ease-out hover:bg-gradient-to-r from-purple-500 to-pink-500 transition-all duration-700"
+          >
+            <div class="second p-8">
+              <span class="text-yellow-500 font-bold text-3xl font-square"
+                >2020-2021</span
+              >
+              <h2 class="my-2 text-2xl font-square">UI/UX Designer</h2>
+              <span class="capitalize text-white -tracking-tightest"
+                >oxford university</span
+              >
+              <p class="mt-3 text-white md:text-2xl font-dancing text-lg">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="button w-fit m-auto">
+          <div>
+            <button
+              class="btn p-3 rounded-full border border-[#3c67e3] hover:scale-75 transition-all duration-500"
+            >
+              DOWNLOAD CV
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Third-section -->
+      <section>
+        <div class="service-main mx-4 my-3">
+          <div class="resume text-center px-10 py-5 sm:w-9/12 md:w-8/12 m-auto">
+            <span class="text-4xl font-black mb-5 inline-block font-square"
+              >Services</span
+            >
+            <p class="text-white md:text-2xl font-dancing text-lg">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia
+            </p>
+          </div>
+        </div>
+        <div class="third-sec-wrapper grid sm:grid-cols-3 text-center mx-3">
+          <div
+            class="h-52 flex border border-[#3c67e3] justify-center items-center rounded-md hover:scale-90 hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-4xl transition-all duration-700 cursor-pointer my-1 mx-1"
+          >
+            <div class="p-4">
+              <span class="text-4xl font-bold font-square">Web Design</span>
+            </div>
+          </div>
+
+          <div
+            class="h-52 border border-[#3c67e3] flex justify-center items-center rounded-md hover:scale-90 hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-4xl transition-all duration-700 cursor-pointer my-1 mx-1"
+          >
+            <div class="p-4">
+              <span class="text-4xl font-bold font-square">Photography</span>
+            </div>
+          </div>
+
+          <div
+            class="h-52 border border-[#3c67e3] flex justify-center items-center rounded-md hover:scale-90 hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-4xl transition-all duration-700 cursor-pointer my-1 mx-1"
+          >
+            <div class="p-4">
+              <span class="text-4xl font-bold font-square">Web Developer</span>
+            </div>
+          </div>
+
+          <div
+            class="h-52 border border-[#3c67e3] flex justify-center items-center rounded-md hover:scale-90 hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-4xl transition-all duration-700 cursor-pointer my-1 mx-1"
+          >
+            <div class="p-4">
+              <span class="text-4xl font-bold font-square">App Developer</span>
+            </div>
+          </div>
+
+          <div
+            class="h-52 border border-[#3c67e3] flex justify-center items-center rounded-md hover:scale-90 hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-4xl transition-all duration-700 cursor-pointer my-1 mx-1"
+          >
+            <div class="p-4">
+              <span class="text-4xl font-bold font-square">Branding</span>
+            </div>
+          </div>
+
+          <div
+            class="h-52 border border-[#3c67e3] flex justify-center items-center rounded-md hover:scale-90 hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-4xl transition-all duration-700 cursor-pointer my-1 mx-1"
+          >
+            <div class="p-4">
+              <span class="text-4xl font-bold font-square"
+                >Product Strategy</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fourth-section -->
+      <section>
+        <div class="projects-main mx-4 my-3">
+          <div class="resume text-center px-10 py-5 sm:w-9/12 md:w-8/12 m-auto">
+            <span class="text-5xl font-black mb-5 inline-block font-square"
+              >Gallery</span
+            >
+            <p class="text-white font-dancing text-2xl">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia
+            </p>
+          </div>
+        </div>
+        <div class="fourth-sec-wrapper mx-3">
+          <div
+            class="img-section grid md:grid-cols-2 items-center justify-center"
+          >
+            <div class="first-img my-2 mx-1">
+              <img
+                src="gallery-img-1.jpg"
+                alt="background-img"
+                class="w-full"
+              />
+            </div>
+            <div class="second-img my-2 mx-1">
+              <img
+                src="gsllery-img-2.webp"
+                alt="background-img"
+                class="w-full"
+              />
+            </div>
+            <div class="third-img my-2 mx-1">
+              <img src="gallery-img-3.jpg" alt="background-img" class="" />
+            </div>
+            <div class="fourth-img my-2 mx-1">
+              <img src="gallery-img-4.jpg" alt="background-img" class="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fifth-section -->
+      <section>
+        <div class="text mx-3 my-3">
+          <h1 class="text-5xl font-black text-center p-1 font-square">
+            I'm Available for freelancing
+          </h1>
+          <p class="text-center my-2 mb-2 text-white text-2xl font-dancing">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur ex itaque sapiente, nisi ad tempore.
+          </p>
+          <div class="btn w-fit m-auto">
+            <button
+              class="p-2 rounded-full border border-[#3c67e3] transition-all duration-500 m-auto"
+            >
+              HIRE ME
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sixth-section -->
+      <section>
+        <div class="text mx-3 mt-12">
+          <h1 class="text-5xl font-black text-center p-1 font-square">
+            Contact Me
+          </h1>
+          <p class="text-center my-2 mb-2 text-white text-2xl font-dancing">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur ex itaque sapiente, nisi ad tempore.
+          </p>
+
+          <!-- form-section -->
+          <div class="form-main md:flex items-center">
+            <div class="left-side md:w-2/4">
+              <div class="text">
+                <h1 class="text-7xl font-black font-square italic text-center">
+                  Send your message to me
+                </h1>
+              </div>
+            </div>
+            <div class="right-side md:w-2/4 mt-8 rounded-md">
+              <form action="" class="p-5 sm:p-8">
+                <div class="name">
+                  <input
+                    type="text"
+                    name="myname"
+                    id="name"
+                    placeholder="Your Name"
+                    class="block w-full h-12 py-1 px-2 border border-light-gray rounded-lg text-black mb-4"
+                  />
+                </div>
+                <div class="email">
+                  <input
+                    type="email"
+                    name="mymail"
+                    id="mail"
+                    placeholder="Your Email"
+                    class="block w-full h-12 py-1 px-2 border border-light-gray rounded-lg text-black mb-4"
+                  />
+                </div>
+                <div class="subject">
+                  <input
+                    type="text"
+                    name="mysubject"
+                    id="subject"
+                    placeholder="Subject"
+                    class="block w-full h-12 py-1 px-2 border border-light-gray rounded-lg text-black mb-4"
+                  />
+                </div>
+                <div class="messgae">
+                  <textarea
+                    name="message"
+                    id="mymsg"
+                    cols="30"
+                    rows="10"
+                    placeholder="Message"
+                    class="block w-full h-auto py-1 px-2 border border-light-gray rounded-lg text-black mb-4"
+                  ></textarea>
+                </div>
+                <div class="button">
+                  <button
+                    class="py-2 px-5 text-white border border-[#3c67e3] rounded-full hover:scale-75 ease-linear duration-300"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-red-300 md:bg-black py-5">
+      <div class="main-ftr-container">
+        <div class="footer grid md:grid-cols-4">
+          <div class="about-sec p-3 text-center">
+            <h2 class="text-2xl font-mono">About</h2>
+            <p class="font-dancing text-lg">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="links-sec p-3 text-center">
+            <h1 class="text-2xl font-mono">Links</h1>
+            <ul>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Projects</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="service-sec p-3 text-center">
+            <h2 class="text-2xl font-mono">Services</h2>
+            <ul>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Web Design</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Web Development</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Bussiness Strategy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Data Analysis</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-red-500 transition-all duration-500"
+                  >Graphic Design</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="question-sec p-3 text-center">
+            <h2 class="text-2xl font-mono">Have a Questions?</h2>
+            <ul>
+              <li>
+                <span>205 Delhi, India </span>
+              </li>
+              <li>
+                <span>+91 2034652893</span>
+              </li>
+              <li>
+                <span>info@yourdomain.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-ftr">
+        <p class="text-center text-lg my-3">
+          Copyright&#169; 2022 All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
